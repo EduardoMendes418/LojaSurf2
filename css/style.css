@@ -1,0 +1,227 @@
+/* itens */
+.nav-link{
+	margin:0 15px;
+}
+
+.navbar{
+	background: white;
+}
+
+section.chamada{
+	background: #007bff;
+	padding: 8px 0;
+	color: white;
+    
+}
+
+section.sobre{
+	padding: 35px 0;
+}
+
+section.chamada h2{
+	font-size: 34px;
+}
+
+.custom-title{
+	position: relative;
+}
+
+.custom-title{
+	color: #999;
+	font-size: 25px;
+}
+
+.custom-title div{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #3fa3c5;
+	width: 85px;
+	height: 4px;
+}
+
+/* Estilos proprios */
+.navcolor{
+	background-color: #ddd;
+}
+
+section.bg-top{
+	width: 100%;
+	min-height: 550px;
+	background-image: url('../image/surf.jpg'); 
+	background-size: cover; 
+	background-position: center; 
+	position: relative;
+	background-attachment: fixed;
+	background-position-y: 50px;
+
+}
+
+
+.box-fix{
+	position: relative;
+	top: 40px;
+}
+
+.fix-zindex{
+	position: relative;
+	z-index:2;
+}
+
+.overlay{
+	z-index:1;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(180,180,180,0.4);
+}
+
+.texto-bg{
+	display: inline-block;
+	color: white;
+	padding: 140px 0;
+}
+
+.padding50left{
+	padding-left: 30px;
+}
+
+.width80{
+	width: 100%;
+}
+
+
+/*==============*/
+
+section.diferenciais{
+	padding: 30px;
+	color: #646464;
+}
+
+section.diferenciais .col-md-4{
+	padding: 0 35px;
+}
+
+section.diferenciais h2{
+	padding: 10px 0;
+	border-bottom: 1px dotted #ccc;
+}
+
+section.convite{
+	padding: 15px 0;
+	background: #3FA3C5;
+}
+
+section.convite form{
+	margin: 8px 0;
+}
+
+section.convite h2{
+	font-size: 35px;
+	color: white;
+}
+
+section.convite input[type=email]{
+	width:calc(100% - 100px);
+	height: 40px;
+}
+
+section.convite button{
+	width: 100px;
+	height: 40px;
+	vertical-align: top;
+}
+
+section.prancha p{
+	color: #999;
+}
+
+section.prancha .col-md-4 {
+    padding: 0 40px;
+}
+
+section.prancha h2{
+text-align: left;
+}
+
+section.prancha img{
+	filter: grayscale(100%);
+	
+}
+
+
+
+section.contato{
+	margin-top: 15px;
+	padding: 30px 0;
+	background: rgb(225,225,225);
+}
+
+.bottom2{
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+/*======footer========*/
+footer{
+	padding:30px 0;
+	background: #999;
+	color: white; 
+}
+
+footer{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	list-style-position: inside;
+
+}
+
+footer{
+	color: white;
+	font-size: 17px;
+}
+
+.group-btns a{
+	margin: 0px 10px;	
+	font-size: 30px;
+}
+
+
+/* media */
+@media screen and (max-width:1024px){
+
+.texto-bg{
+	display: inline-block;
+	color: white;
+	padding: 165px 0;
+}
+
+
+.navbar-nav{
+	margin-top:30px; 
+}
+
+.nav-link{
+	border-top: 1px solid black;
+	margin: 0 10px;
+	}
+
+.nav-link{
+	margin:0;
+	}
+
+.padding50left{
+	padding-left: 0;
+}	
+
+section > .box-prancha{
+	margin-left: 0;
+}
+
+
+}
